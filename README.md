@@ -52,6 +52,11 @@ Yolov7-tiny.pt is already provided in the repo. But if you want you can download
 	$ python3 gen_wts.py -w yolov7-tiny.pt -o yolov7-tiny.wts
 	
 Make
+
+=============
+remember to revise yolov7/include config.h
+
+const static int kNumClass = 5; (change to your own numbers of class)
 =============
 Create a build directory inside yolov7. Copy and paste generated wts file into build directory and run below commands. If using custom model, make sure to update kNumClas in yolov7/include/config.h
 

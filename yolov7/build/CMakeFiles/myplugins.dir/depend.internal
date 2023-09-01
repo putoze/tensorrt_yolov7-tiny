@@ -6,8 +6,8 @@ CMakeFiles/myplugins.dir/plugin/yololayer.cu.o
  ../include/cuda_utils.h
  ../include/macros.h
  ../include/types.h
- /home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.cu
- /home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.h
+ /home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.cu
+ /home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.h
  /usr/local/cuda/targets/aarch64-linux/include/builtin_types.h
  /usr/local/cuda/targets/aarch64-linux/include/crt/host_defines.h
  /usr/local/cuda/targets/aarch64-linux/include/cuda_device_runtime_api.h

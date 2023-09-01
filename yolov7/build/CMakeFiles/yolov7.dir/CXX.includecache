@@ -96,33 +96,33 @@ vector
 string
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/main.cpp
+/home/joe/TensorRT/YoloV7/yolov7/main.cpp
 config.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/config.h
+/home/joe/TensorRT/YoloV7/yolov7/config.h
 model.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/model.h
+/home/joe/TensorRT/YoloV7/yolov7/model.h
 cuda_utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/cuda_utils.h
+/home/joe/TensorRT/YoloV7/yolov7/cuda_utils.h
 logging.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/logging.h
+/home/joe/TensorRT/YoloV7/yolov7/logging.h
 utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/utils.h
+/home/joe/TensorRT/YoloV7/yolov7/utils.h
 preprocess.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/preprocess.h
+/home/joe/TensorRT/YoloV7/yolov7/preprocess.h
 postprocess.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/postprocess.h
+/home/joe/TensorRT/YoloV7/yolov7/postprocess.h
 chrono
 -
 fstream
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/block.cpp
+/home/joe/TensorRT/YoloV7/yolov7/src/block.cpp
 block.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/block.h
+/home/joe/TensorRT/YoloV7/yolov7/src/block.h
 yololayer.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/yololayer.h
+/home/joe/TensorRT/YoloV7/yolov7/src/yololayer.h
 NvInfer.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/NvInfer.h
+/home/joe/TensorRT/YoloV7/yolov7/src/NvInfer.h
 iostream
 -
 fstream
@@ -134,7 +134,7 @@ cmath
 cstring
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/calibrator.cpp
+/home/joe/TensorRT/YoloV7/yolov7/src/calibrator.cpp
 iostream
 -
 iterator
@@ -144,29 +144,29 @@ fstream
 opencv2/dnn/dnn.hpp
 -
 calibrator.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/calibrator.h
+/home/joe/TensorRT/YoloV7/yolov7/src/calibrator.h
 cuda_utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/cuda_utils.h
+/home/joe/TensorRT/YoloV7/yolov7/src/cuda_utils.h
 utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/utils.h
+/home/joe/TensorRT/YoloV7/yolov7/src/utils.h
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/model.cpp
+/home/joe/TensorRT/YoloV7/yolov7/src/model.cpp
 model.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/model.h
+/home/joe/TensorRT/YoloV7/yolov7/src/model.h
 block.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/block.h
+/home/joe/TensorRT/YoloV7/yolov7/src/block.h
 config.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/config.h
+/home/joe/TensorRT/YoloV7/yolov7/src/config.h
 calibrator.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/calibrator.h
+/home/joe/TensorRT/YoloV7/yolov7/src/calibrator.h
 iostream
 -
 cassert
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/postprocess.cpp
+/home/joe/TensorRT/YoloV7/yolov7/src/postprocess.cpp
 postprocess.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/postprocess.h
+/home/joe/TensorRT/YoloV7/yolov7/src/postprocess.h
 
 /usr/local/cuda/targets/aarch64-linux/include/builtin_types.h
 device_types.h

@@ -130,7 +130,7 @@ def loop_and_detect(cam, model):
             img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
         if img is None:
             break
-        img = imutils.resize(img, width=600)
+        #img = imutils.resize(img, width=640)
         detections, t = model.Inference(img)
         # write my self code
         #(img, text, org, fontFace, fontScale, color, thickness, lineType)
@@ -328,7 +328,7 @@ def main():
         raise SystemExit('ERROR: failed to open camera!')
 
     model = YoloTRT(library="yolov7/build/libmyplugins.so", 
-                    engine="yolov7/build/yolov7-tiny.engine", conf=args.conf_thresh, yolo_ver="v7")
+                    engine="yolov7/build/yolov7-tiny-20230831-five-direct.engine", conf=args.conf_thresh, yolo_ver="v7")
     
     open_window(
         WINDOW_NAME, 'Camera TensorRT YOLO Demo',

@@ -6,5 +6,5 @@ CUDA_FLAGS = -g -Xcompiler=-fPIC   -std=c++11
 
 CUDA_DEFINES = -DAPI_EXPORTS -Dmyplugins_EXPORTS
 
-CUDA_INCLUDES = -I/home/joe/JetsonYoloV7-TensorRT/yolov7/include -I/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -I/usr/local/include -I/usr/local/include/opencv 
+CUDA_INCLUDES = -I/home/joe/TensorRT/YoloV7/yolov7/include -I/home/joe/TensorRT/YoloV7/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -I/usr/local/include -I/usr/local/include/opencv 
 

@@ -18,11 +18,11 @@ cstdint
 opencv2/opencv.hpp
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/preprocess.cu
+/home/joe/TensorRT/YoloV7/yolov7/src/preprocess.cu
 preprocess.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/preprocess.h
+/home/joe/TensorRT/YoloV7/yolov7/src/preprocess.h
 cuda_utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/src/cuda_utils.h
+/home/joe/TensorRT/YoloV7/yolov7/src/cuda_utils.h
 
 /usr/local/cuda/targets/aarch64-linux/include/builtin_types.h
 device_types.h

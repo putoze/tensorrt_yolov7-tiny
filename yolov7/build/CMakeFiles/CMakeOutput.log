@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5013b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5013b.dir/build.make CMakeFiles/cmTC_5013b.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5013b.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5013b.dir/testCCompiler.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5013b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5013b.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5013b.dir/testCCompiler.c.o  -o cmTC_5013b 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ce57d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce57d.dir/build.make CMakeFiles/cmTC_ce57d.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce57d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ce57d.dir/testCCompiler.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ce57d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce57d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ce57d.dir/testCCompiler.c.o  -o cmTC_ce57d 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb337/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb337.dir/build.make CMakeFiles/cmTC_cb337.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_cb337
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb337.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o  -o cmTC_cb337 
+Run Build Command:"/usr/bin/make" "cmTC_7a6e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a6e0.dir/build.make CMakeFiles/cmTC_7a6e0.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7a6e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a6e0.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o  -o cmTC_7a6e0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb337' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjt0ewy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_cb337 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb337' '-mlittle-endian' '-mabi=lp64'
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7a6e0' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnBddMO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_7a6e0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7a6e0' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cb337/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cb337.dir/build.make CMakeFiles/cmTC_cb337.dir/build]
-  ignore line: [make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_cb337]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb337.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o  -o cmTC_cb337 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7a6e0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7a6e0.dir/build.make CMakeFiles/cmTC_7a6e0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7a6e0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a6e0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o  -o cmTC_7a6e0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb337' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjt0ewy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_cb337 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7a6e0' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnBddMO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_7a6e0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjt0ewy.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnBddMO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cb337] ==> ignore
+    arg [cmTC_7a6e0] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_cb337.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7a6e0.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -154,17 +154,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64bba/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64bba.dir/build.make CMakeFiles/cmTC_64bba.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64bba.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_64bba.dir/feature_tests.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_64bba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64bba.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_64bba.dir/feature_tests.c.o  -o cmTC_64bba 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5623f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5623f.dir/build.make CMakeFiles/cmTC_5623f.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5623f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5623f.dir/feature_tests.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5623f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5623f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5623f.dir/feature_tests.c.o  -o cmTC_5623f 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -174,17 +174,17 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1ce5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1ce5.dir/build.make CMakeFiles/cmTC_b1ce5.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1ce5.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b1ce5.dir/feature_tests.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b1ce5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ce5.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b1ce5.dir/feature_tests.c.o  -o cmTC_b1ce5 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_889a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_889a6.dir/build.make CMakeFiles/cmTC_889a6.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889a6.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_889a6.dir/feature_tests.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_889a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_889a6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_889a6.dir/feature_tests.c.o  -o cmTC_889a6 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -194,17 +194,17 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ec28/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ec28.dir/build.make CMakeFiles/cmTC_8ec28.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ec28.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8ec28.dir/feature_tests.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8ec28
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec28.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8ec28.dir/feature_tests.c.o  -o cmTC_8ec28 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d737a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d737a.dir/build.make CMakeFiles/cmTC_d737a.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d737a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d737a.dir/feature_tests.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d737a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d737a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d737a.dir/feature_tests.c.o  -o cmTC_d737a 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -212,30 +212,30 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_26032/fast"
-/usr/bin/make -f CMakeFiles/cmTC_26032.dir/build.make CMakeFiles/cmTC_26032.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_26032.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_26032.dir/testCXXCompiler.cxx.o -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_26032
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26032.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_26032.dir/testCXXCompiler.cxx.o  -o cmTC_26032 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_05bf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05bf8.dir/build.make CMakeFiles/cmTC_05bf8.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05bf8.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_05bf8.dir/testCXXCompiler.cxx.o -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05bf8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05bf8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_05bf8.dir/testCXXCompiler.cxx.o  -o cmTC_05bf8 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f066/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9f066.dir/build.make CMakeFiles/cmTC_9f066.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9f066
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f066.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f066 
+Run Build Command:"/usr/bin/make" "cmTC_ecf07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecf07.dir/build.make CMakeFiles/cmTC_ecf07.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ecf07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf07.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ecf07 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -245,24 +245,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f066' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDQEWVs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_9f066 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f066' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ecf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctxP27H.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_ecf07 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ecf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9f066/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9f066.dir/build.make CMakeFiles/cmTC_9f066.dir/build]
-  ignore line: [make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9f066]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f066.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f066 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ecf07/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ecf07.dir/build.make CMakeFiles/cmTC_ecf07.dir/build]
+  ignore line: [make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ecf07]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf07.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ecf07 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -272,13 +272,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f066' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDQEWVs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_9f066 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ecf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctxP27H.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_ecf07 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDQEWVs.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctxP27H.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9f066] ==> ignore
+    arg [cmTC_ecf07] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_9f066.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ecf07.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c137c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c137c.dir/build.make CMakeFiles/cmTC_c137c.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c137c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c137c.dir/feature_tests.cxx.o -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c137c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c137c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c137c.dir/feature_tests.cxx.o  -o cmTC_c137c 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fe14b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe14b.dir/build.make CMakeFiles/cmTC_fe14b.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe14b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_fe14b.dir/feature_tests.cxx.o -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fe14b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe14b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fe14b.dir/feature_tests.cxx.o  -o cmTC_fe14b 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c119f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c119f.dir/build.make CMakeFiles/cmTC_c119f.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c119f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c119f.dir/feature_tests.cxx.o -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c119f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c119f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c119f.dir/feature_tests.cxx.o  -o cmTC_c119f 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f7ffb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7ffb.dir/build.make CMakeFiles/cmTC_f7ffb.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7ffb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f7ffb.dir/feature_tests.cxx.o -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7ffb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7ffb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f7ffb.dir/feature_tests.cxx.o  -o cmTC_f7ffb 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c63d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c63d.dir/build.make CMakeFiles/cmTC_9c63d.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9c63d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9c63d.dir/feature_tests.cxx.o -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9c63d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c63d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9c63d.dir/feature_tests.cxx.o  -o cmTC_9c63d 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_01f8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01f8a.dir/build.make CMakeFiles/cmTC_01f8a.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01f8a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_01f8a.dir/feature_tests.cxx.o -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01f8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f8a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_01f8a.dir/feature_tests.cxx.o  -o cmTC_01f8a 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -555,17 +555,17 @@ make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_03b86/fast"
-/usr/bin/make -f CMakeFiles/cmTC_03b86.dir/build.make CMakeFiles/cmTC_03b86.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_03b86.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_03b86.dir/feature_tests.cxx.o -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_03b86
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03b86.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_03b86.dir/feature_tests.cxx.o  -o cmTC_03b86 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_426e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_426e9.dir/build.make CMakeFiles/cmTC_426e9.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_426e9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_426e9.dir/feature_tests.cxx.o -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_426e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426e9.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_426e9.dir/feature_tests.cxx.o  -o cmTC_426e9 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -664,7 +664,7 @@ The output was:
 
 Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.out"
 
-The CUDA compiler identification is NVIDIA, found in "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/3.10.2/CompilerIdCUDA/a.out"
+The CUDA compiler identification is NVIDIA, found in "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/3.10.2/CompilerIdCUDA/a.out"
 
 Parsed CUDA nvcc implicit link information from above output:
   found 'PATH=' string: [/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/joe/miniforge-pypy3/envs/JetsonYoloV7-TensorRT/bin:/home/joe/miniforge-pypy3/condabin:/usr/local/cuda-10.2/bin:/home/joe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
@@ -758,36 +758,36 @@ Parsed CUDA nvcc include information from above output:
 
 
 Determining if the CUDA compiler works passed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb570/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb570.dir/build.make CMakeFiles/cmTC_cb570.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_cb570.dir/main.cu.o
-/usr/local/cuda/bin/nvcc     -x cu -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_cb570.dir/main.cu.o
-Linking CUDA device code CMakeFiles/cmTC_cb570.dir/cmake_device_link.o
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb570.dir/dlink.txt --verbose=1
-/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_cb570.dir/main.cu.o -o CMakeFiles/cmTC_cb570.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_cb570
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb570.dir/link.txt --verbose=1
-/usr/bin/g++    CMakeFiles/cmTC_cb570.dir/main.cu.o CMakeFiles/cmTC_cb570.dir/cmake_device_link.o -o cmTC_cb570  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c87c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c87c.dir/build.make CMakeFiles/cmTC_9c87c.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_9c87c.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_9c87c.dir/main.cu.o
+Linking CUDA device code CMakeFiles/cmTC_9c87c.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c87c.dir/dlink.txt --verbose=1
+/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_9c87c.dir/main.cu.o -o CMakeFiles/cmTC_9c87c.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_9c87c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c87c.dir/link.txt --verbose=1
+/usr/bin/g++    CMakeFiles/cmTC_9c87c.dir/main.cu.o CMakeFiles/cmTC_9c87c.dir/cmake_device_link.o -o cmTC_9c87c  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CUDA compiler ABI info compiled with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c681c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c681c.dir/build.make CMakeFiles/cmTC_c681c.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o
-/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o
-Linking CUDA device code CMakeFiles/cmTC_c681c.dir/cmake_device_link.o
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c681c.dir/dlink.txt --verbose=1
-/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_c681c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c681c.dir/link.txt --verbose=1
-/usr/bin/g++   -v CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o -o cmTC_c681c  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+Run Build Command:"/usr/bin/make" "cmTC_fe61c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe61c.dir/build.make CMakeFiles/cmTC_fe61c.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o
+Linking CUDA device code CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe61c.dir/dlink.txt --verbose=1
+/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_fe61c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe61c.dir/link.txt --verbose=1
+/usr/bin/g++   -v CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o -o cmTC_fe61c  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -797,27 +797,27 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c681c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9dkmM8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_c681c /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/aarch64-linux/lib/stubs -L/usr/local/cuda/targets/aarch64-linux/lib -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c681c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe61c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf27ELD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_fe61c /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/aarch64-linux/lib/stubs -L/usr/local/cuda/targets/aarch64-linux/lib -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe61c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CUDA implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c681c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c681c.dir/build.make CMakeFiles/cmTC_c681c.dir/build]
-  ignore line: [make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CUDA object CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [Linking CUDA device code CMakeFiles/cmTC_c681c.dir/cmake_device_link.o]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c681c.dir/dlink.txt --verbose=1]
-  ignore line: [/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o ]
-  ignore line: [Linking CUDA executable cmTC_c681c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c681c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++   -v CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o -o cmTC_c681c  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fe61c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fe61c.dir/build.make CMakeFiles/cmTC_fe61c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CUDA object CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [Linking CUDA device code CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe61c.dir/dlink.txt --verbose=1]
+  ignore line: [/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o ]
+  ignore line: [Linking CUDA executable cmTC_fe61c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe61c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++   -v CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o -o cmTC_fe61c  -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -827,13 +827,13 @@ Parsed CUDA implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c681c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9dkmM8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_c681c /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/aarch64-linux/lib/stubs -L/usr/local/cuda/targets/aarch64-linux/lib -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c681c.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe61c' '-L/usr/local/cuda/targets/aarch64-linux/lib/stubs' '-L/usr/local/cuda/targets/aarch64-linux/lib' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf27ELD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_fe61c /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/aarch64-linux/lib/stubs -L/usr/local/cuda/targets/aarch64-linux/lib -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9dkmM8.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccf27ELD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -853,7 +853,7 @@ Parsed CUDA implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c681c] ==> ignore
+    arg [cmTC_fe61c] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -867,8 +867,8 @@ Parsed CUDA implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c681c.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
-    arg [CMakeFiles/cmTC_c681c.dir/cmake_device_link.o] ==> ignore
+    arg [CMakeFiles/cmTC_fe61c.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+    arg [CMakeFiles/cmTC_fe61c.dir/cmake_device_link.o] ==> ignore
     arg [-lcudadevrt] ==> lib [cudadevrt]
     arg [-lcudart_static] ==> lib [cudart_static]
     arg [-lrt] ==> lib [rt]
@@ -899,30 +899,30 @@ Parsed CUDA implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5db30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5db30.dir/build.make CMakeFiles/cmTC_5db30.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5db30.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_5db30.dir/CheckIncludeFile.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5db30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5db30.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     CMakeFiles/cmTC_5db30.dir/CheckIncludeFile.c.o  -o cmTC_5db30 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cd88e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd88e.dir/build.make CMakeFiles/cmTC_cd88e.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd88e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_cd88e.dir/CheckIncludeFile.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cd88e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd88e.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     CMakeFiles/cmTC_cd88e.dir/CheckIncludeFile.c.o  -o cmTC_cd88e 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4ff65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4ff65.dir/build.make CMakeFiles/cmTC_4ff65.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4ff65.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4ff65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4ff65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ff65.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4ff65.dir/CheckFunctionExists.c.o  -o cmTC_4ff65 -lpthread 
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0b8c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b8c0.dir/build.make CMakeFiles/cmTC_0b8c0.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b8c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0b8c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0b8c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b8c0.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0b8c0.dir/CheckFunctionExists.c.o  -o cmTC_0b8c0 -lpthread 
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
 
 

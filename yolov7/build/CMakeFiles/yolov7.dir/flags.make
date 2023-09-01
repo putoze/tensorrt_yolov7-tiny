@@ -7,11 +7,11 @@ CUDA_FLAGS = -g   -std=c++11
 
 CUDA_DEFINES = -DAPI_EXPORTS -DOPENCV_TRAITS_ENABLE_DEPRECATED
 
-CUDA_INCLUDES = -I/home/joe/JetsonYoloV7-TensorRT/yolov7/include -I/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem=/usr/local/include -isystem=/usr/local/include/opencv 
+CUDA_INCLUDES = -I/home/joe/TensorRT/YoloV7/yolov7/include -I/home/joe/TensorRT/YoloV7/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem=/usr/local/include -isystem=/usr/local/include/opencv 
 
 CXX_FLAGS = -g   -std=c++11 -std=gnu++11
 
 CXX_DEFINES = -DAPI_EXPORTS -DOPENCV_TRAITS_ENABLE_DEPRECATED
 
-CXX_INCLUDES = -I/home/joe/JetsonYoloV7-TensorRT/yolov7/include -I/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/home/joe/TensorRT/YoloV7/yolov7/include -I/home/joe/TensorRT/YoloV7/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

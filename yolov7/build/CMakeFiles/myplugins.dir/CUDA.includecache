@@ -20,11 +20,11 @@ NvInfer.h
 config.h
 ../include/config.h
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.cu
+/home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.cu
 yololayer.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.h
+/home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.h
 cuda_utils.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/cuda_utils.h
+/home/joe/TensorRT/YoloV7/yolov7/plugin/cuda_utils.h
 assert.h
 -
 vector
@@ -32,11 +32,11 @@ vector
 iostream
 -
 
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.h
+/home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.h
 macros.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/macros.h
+/home/joe/TensorRT/YoloV7/yolov7/plugin/macros.h
 types.h
-/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/types.h
+/home/joe/TensorRT/YoloV7/yolov7/plugin/types.h
 vector
 -
 string

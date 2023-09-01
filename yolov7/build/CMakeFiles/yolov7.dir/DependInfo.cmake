@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/src/preprocess.cu" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/src/preprocess.cu.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/src/preprocess.cu" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/src/preprocess.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 
@@ -24,11 +24,11 @@ set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   "/usr/local/include/opencv"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/main.cpp" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/main.cpp.o"
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/src/block.cpp" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/src/block.cpp.o"
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/src/calibrator.cpp" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/src/calibrator.cpp.o"
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/src/model.cpp" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/src/model.cpp.o"
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/src/postprocess.cpp" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/yolov7.dir/src/postprocess.cpp.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/main.cpp" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/main.cpp.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/src/block.cpp" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/src/block.cpp.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/src/calibrator.cpp" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/src/calibrator.cpp.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/src/model.cpp" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/src/model.cpp.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/src/postprocess.cpp" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/yolov7.dir/src/postprocess.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -49,7 +49,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/myplugins.dir/DependInfo.cmake"
+  "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/myplugins.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

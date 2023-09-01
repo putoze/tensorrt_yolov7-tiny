@@ -1,25 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fde40/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fde40.dir/build.make CMakeFiles/cmTC_fde40.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fde40.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_fde40.dir/CheckSymbolExists.c.o   -c /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_fde40
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde40.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     CMakeFiles/cmTC_fde40.dir/CheckSymbolExists.c.o  -o cmTC_fde40 
-CMakeFiles/cmTC_fde40.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_e9623/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9623.dir/build.make CMakeFiles/cmTC_e9623.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9623.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_e9623.dir/CheckSymbolExists.c.o   -c /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9623.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     CMakeFiles/cmTC_e9623.dir/CheckSymbolExists.c.o  -o cmTC_e9623 
+CMakeFiles/cmTC_e9623.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fde40.dir/build.make:97: recipe for target 'cmTC_fde40' failed
-make[1]: *** [cmTC_fde40] Error 1
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fde40/fast' failed
-make: *** [cmTC_fde40/fast] Error 2
+CMakeFiles/cmTC_e9623.dir/build.make:97: recipe for target 'cmTC_e9623' failed
+make[1]: *** [cmTC_e9623] Error 1
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e9623/fast' failed
+make: *** [cmTC_e9623/fast] Error 2
 
-File /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -35,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp
+Change Dir: /home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea9a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea9a6.dir/build.make CMakeFiles/cmTC_ea9a6.dir/build
-make[1]: Entering directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea9a6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea9a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ea9a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea9a6.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ea9a6.dir/CheckFunctionExists.c.o  -o cmTC_ea9a6 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_261f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_261f3.dir/build.make CMakeFiles/cmTC_261f3.dir/build
+make[1]: Entering directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_261f3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_261f3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_261f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_261f3.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_261f3.dir/CheckFunctionExists.c.o  -o cmTC_261f3 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ea9a6.dir/build.make:97: recipe for target 'cmTC_ea9a6' failed
-make[1]: *** [cmTC_ea9a6] Error 1
-make[1]: Leaving directory '/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ea9a6/fast' failed
-make: *** [cmTC_ea9a6/fast] Error 2
+CMakeFiles/cmTC_261f3.dir/build.make:97: recipe for target 'cmTC_261f3' failed
+make[1]: *** [cmTC_261f3] Error 1
+make[1]: Leaving directory '/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_261f3/fast' failed
+make: *** [cmTC_261f3/fast] Error 2
 
 

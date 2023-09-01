@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/joe/JetsonYoloV7-TensorRT/yolov7/plugin/yololayer.cu" "/home/joe/JetsonYoloV7-TensorRT/yolov7/build/CMakeFiles/myplugins.dir/plugin/yololayer.cu.o"
+  "/home/joe/TensorRT/YoloV7/yolov7/plugin/yololayer.cu" "/home/joe/TensorRT/YoloV7/yolov7/build/CMakeFiles/myplugins.dir/plugin/yololayer.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 
